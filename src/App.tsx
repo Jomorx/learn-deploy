@@ -15,6 +15,8 @@ function App() {
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count} asdasdasd
+            count is: {count} 哈哈哈哈哈 终于好了
+
           </button>
         </p>
         <p>
