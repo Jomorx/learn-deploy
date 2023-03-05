@@ -12,5 +12,5 @@ jobs:
       # 切出代码，使用该 Action 将可以拉取最新代码
       - uses: actions/checkout@v3
       - name: Deploy
-        run: docker-compose up --build -d
+        run: docker-compose up --build oss -d
 #AW2BO3GH5PMEYI3OISRPOKDEATAVK
