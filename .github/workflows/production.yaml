@@ -14,4 +14,6 @@ jobs:
         uses: actions/checkout@v2
       - name: compose
         run: docker-compose up --build oss -d
+      - name: clean images
+        run: docker image prune -f
 #AW2BO3GH5PMEYI3OISRPOKDEATAVK

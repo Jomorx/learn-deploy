@@ -14,7 +14,7 @@ function App() {
         <p>Hello Vite + React!</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count} asdasdasd
+            count is: {count} clean
             count is: {count} 哈哈哈哈哈 终于好了
 
           </button>
